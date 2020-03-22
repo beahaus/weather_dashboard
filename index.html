@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <nav class="navbar bg-dark mb-3">
+        <a class="navbar-brand p-4" style="color:white; font-size: 3rem;">Weather Dashboard</a>
+    </nav>
 
+    <div class="container col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12" style="position: relative; float: both;"></div>
+      <h2 class="ml-5 mt-3 mb-3">Search for a City:</h2>
+      <form class="form-inline ml-5 mt-3 mb-3">
+        <input class="form-control" type="search" value="" placeholder="search" aria-label="Search">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="card ml-5 mt-3 mb-3 col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12" style="position: relative;">
+        <div class="card-body">
+          <h5 class="card-title" id="city-name-date">city name, date, and whatever weather shit</h5>
+          <p class="card-text" id="temperature">current weather stats</p>
+          <p class="card-text" id="humidity">current weather stats</p>
+          <p class="card-text" id="wind-speed">current weather stats</p>
+          <p class="card-text" id="uv-index">current weather stats</p>
+    </div>
+
+    <div>display 5 day forecast
+    </div>
+        </div>
+</body>
+</html>
